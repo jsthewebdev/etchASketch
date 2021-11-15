@@ -1,0 +1,53 @@
+/* document general styles*/
+
+:root {
+    --customWidth: 0px;
+    --customHeight: 0px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* left side styles */
+.optionsLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* tiles styles */
+
+.etchTilesContainer {
+    max-width: 506px;
+    max-height: 506px;
+    min-width: 506px;
+    min-height: 506px;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: 20px;
+}
+
+
+.innerGridSquare:hover {
+    background-color: black;
+}
+
+.innerGridSquare {
+    min-width: var(--customWidth);
+    min-height: var(--customHeight);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+/* right side styles */
